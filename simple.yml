@@ -1,3 +1,7 @@
-tasks:
-  - name: update nano to latest
-    yum: pkg=nano state=latest
+
+
+- name: Nano Update
+  hosts: all
+  tasks:
+    - name: update nano to latest
+      yum: pkg=nano state=latest
