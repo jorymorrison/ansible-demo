@@ -1,0 +1,3 @@
+tasks:
+  - name: update nano to latest
+    yum: pkg=nano state=latest
